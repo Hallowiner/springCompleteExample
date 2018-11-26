@@ -8,4 +8,5 @@ public interface EmployeeController {
 
     void create(Employee employee);
     List<Employee> list();
+    Employee get(int id);
 }
